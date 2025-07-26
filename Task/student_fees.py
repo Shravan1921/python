@@ -1,5 +1,5 @@
 name = input("Enter Student Name: ")
-grade =  input("Enter  Student Grade : ")
+grade =  int(input("Enter  Student Grade : "))
 base_fee =  float(input("Extra Base_Fee : "))
 discount_percentage =  float(input("Extra Discount_Percentage % (if any) "))
 topper =  input("Is the student an academic topper? (yes/no): ")
@@ -28,7 +28,7 @@ else :
      extra_discount = 0
 
 # total discount
-total_discount = intial_disocunt + extra_discount + discount_percentage
+total_discount = initial_disocunt + extra_discount + discount_percentage
 
 # calculations
 
