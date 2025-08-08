@@ -46,4 +46,3 @@ print(f"Performance Level:  {performance}")
 
 
 
-print(student_name)
